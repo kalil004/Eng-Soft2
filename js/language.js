@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'Alemão',
                 'fr': 'Francês',
                 'da': 'Dinamarquês',
-                'ru': 'Russo'
+                'ru': 'Russo',
+                'Voltar': 'Voltar'
             },
             'en': {
                 'Idioma': 'Language',
@@ -37,7 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'German',
                 'fr': 'French',
                 'da': 'Danish',
-                'ru': 'Russian'
+                'ru': 'Russian',
+                'Voltar': 'Back'
             },
             'en-uk': {
                 'Idioma': 'Language',
@@ -48,7 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'German',
                 'fr': 'French',
                 'da': 'Danish',
-                'ru': 'Russian'
+                'ru': 'Russian',
+                'Voltar': 'Back'
             },
             'es': {
                 'Idioma': 'Idioma',
@@ -59,7 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'Alemán',
                 'fr': 'Francés',
                 'da': 'Danés',
-                'ru': 'Ruso'
+                'ru': 'Ruso',
+                'Voltar': 'Volver'
             },
             'de': {
                 'Idioma': 'Sprache',
@@ -70,7 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'Deutsch',
                 'fr': 'Französisch',
                 'da': 'Dänisch',
-                'ru': 'Russisch'
+                'ru': 'Russisch',
+                'Voltar': 'Zurück'
             },
             'fr': {
                 'Idioma': 'Langue',
@@ -81,7 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'Allemand',
                 'fr': 'Français',
                 'da': 'Danois',
-                'ru': 'Russe'
+                'ru': 'Russe',
+                'Voltar': 'Retour'
             },
             'da': {
                 'Idioma': 'Sprog',
@@ -92,7 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'Tysk',
                 'fr': 'Fransk',
                 'da': 'Dansk',
-                'ru': 'Russisk'
+                'ru': 'Russisk',
+                'Voltar': 'Tilbage'
             },
             'ru': {
                 'Idioma': 'Язык',
@@ -103,12 +110,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 'de': 'Немецкий',
                 'fr': 'Французский',
                 'da': 'Датский',
-                'ru': 'Русский'
+                'ru': 'Русский',
+                'Voltar': 'Назад'
             }
         };
 
         document.querySelector('h1').textContent = translations[lang]['Idioma'];
-        document.querySelector('img[alt="Voltar"]').setAttribute('alt', translations[lang]['Voltar']);
+        document.querySelector('a img').setAttribute('alt', translations[lang]['Voltar']);
 
         document.querySelectorAll('.lang-item').forEach((langItem) => {
             const span = langItem.querySelector('span');
