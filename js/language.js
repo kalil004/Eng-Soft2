@@ -19,100 +19,101 @@ document.addEventListener('DOMContentLoaded', () => {
         const translations = {
             'pt': {
                 'Idioma': 'Idioma',
-                'Português (Brasil)': 'Português (Brasil)',
-                'Inglês (EUA)': 'Inglês (EUA)',
-                'Inglês (Reino Unido)': 'Inglês (Reino Unido)',
-                'Espanhol': 'Espanhol',
-                'Deutsch': 'Alemão',
-                'Français': 'Francês',
-                'Dansk': 'Dinamarquês',
-                'Русский': 'Russo'
+                'pt': 'Português (Brasil)',
+                'en': 'Inglês (EUA)',
+                'en-uk': 'Inglês (Reino Unido)',
+                'es': 'Espanhol',
+                'de': 'Alemão',
+                'fr': 'Francês',
+                'da': 'Dinamarquês',
+                'ru': 'Russo'
             },
             'en': {
                 'Idioma': 'Language',
-                'Português (Brasil)': 'Portuguese (Brazil)',
-                'Inglês (EUA)': 'English (USA)',
-                'Inglês (Reino Unido)': 'English (UK)',
-                'Espanhol': 'Spanish',
-                'Deutsch': 'German',
-                'Français': 'French',
-                'Dansk': 'Danish',
-                'Русский': 'Russian'
+                'pt': 'Portuguese (Brazil)',
+                'en': 'English (USA)',
+                'en-uk': 'English (UK)',
+                'es': 'Spanish',
+                'de': 'German',
+                'fr': 'French',
+                'da': 'Danish',
+                'ru': 'Russian'
             },
             'en-uk': {
                 'Idioma': 'Language',
-                'Português (Brasil)': 'Portuguese (Brazil)',
-                'Inglês (EUA)': 'English (USA)',
-                'Inglês (Reino Unido)': 'English (UK)',
-                'Espanhol': 'Spanish',
-                'Deutsch': 'German',
-                'Français': 'French',
-                'Dansk': 'Danish',
-                'Русский': 'Russian'
+                'pt': 'Portuguese (Brazil)',
+                'en': 'English (USA)',
+                'en-uk': 'English (UK)',
+                'es': 'Spanish',
+                'de': 'German',
+                'fr': 'French',
+                'da': 'Danish',
+                'ru': 'Russian'
             },
             'es': {
                 'Idioma': 'Idioma',
-                'Português (Brasil)': 'Portugués (Brasil)',
-                'Inglês (EUA)': 'Inglés (EE.UU.)',
-                'Inglês (Reino Unido)': 'Inglés (Reino Unido)',
-                'Espanhol': 'Español',
-                'Deutsch': 'Alemán',
-                'Français': 'Francés',
-                'Dansk': 'Danés',
-                'Русский': 'Ruso'
+                'pt': 'Portugués (Brasil)',
+                'en': 'Inglés (EUA)',
+                'en-uk': 'Inglés (Reino Unido)',
+                'es': 'Español',
+                'de': 'Alemán',
+                'fr': 'Francés',
+                'da': 'Danés',
+                'ru': 'Ruso'
             },
             'de': {
                 'Idioma': 'Sprache',
-                'Português (Brasil)': 'Portugiesisch (Brasilien)',
-                'Inglês (EUA)': 'Englisch (USA)',
-                'Inglês (Reino Unido)': 'Englisch (UK)',
-                'Espanhol': 'Spanisch',
-                'Deutsch': 'Deutsch',
-                'Français': 'Französisch',
-                'Dansk': 'Dänisch',
-                'Русский': 'Russisch'
+                'pt': 'Portugiesisch (Brasilien)',
+                'en': 'Englisch (USA)',
+                'en-uk': 'Englisch (UK)',
+                'es': 'Spanisch',
+                'de': 'Deutsch',
+                'fr': 'Französisch',
+                'da': 'Dänisch',
+                'ru': 'Russisch'
             },
             'fr': {
                 'Idioma': 'Langue',
-                'Português (Brasil)': 'Portugais (Brésil)',
-                'Inglês (EUA)': 'Anglais (É.-U.)',
-                'Inglês (Reino Unido)': 'Anglais (R.-U.)',
-                'Espanhol': 'Espagnol',
-                'Deutsch': 'Allemand',
-                'Français': 'Français',
-                'Dansk': 'Danois',
-                'Русский': 'Russe'
+                'pt': 'Portugais (Brésil)',
+                'en': 'Anglais (USA)',
+                'en-uk': 'Anglais (Royaume Uni)',
+                'es': 'Espagnol',
+                'de': 'Allemand',
+                'fr': 'Français',
+                'da': 'Danois',
+                'ru': 'Russe'
             },
             'da': {
                 'Idioma': 'Sprog',
-                'Português (Brasil)': 'Portugisisk (Brasilien)',
-                'Inglês (EUA)': 'Engelsk (USA)',
-                'Inglês (Reino Unido)': 'Engelsk (UK)',
-                'Espanhol': 'Spansk',
-                'Deutsch': 'Tysk',
-                'Français': 'Fransk',
-                'Dansk': 'Dansk',
-                'Русский': 'Russisk'
+                'pt': 'Portugisisk (Brasilien)',
+                'en': 'Engelsk (USA)',
+                'en-uk': 'Engelsk (UK)',
+                'es': 'Spansk',
+                'de': 'Tysk',
+                'fr': 'Fransk',
+                'da': 'Dansk',
+                'ru': 'Russisk'
             },
             'ru': {
                 'Idioma': 'Язык',
-                'Português (Brasil)': 'Португальский (Бразилия)',
-                'Inglês (EUA)': 'Английский (США)',
-                'Inglês (Reino Unido)': 'Английский (Великобритания)',
-                'Espanhol': 'Испанский',
-                'Deutsch': 'Немецкий',
-                'Français': 'Французский',
-                'Dansk': 'Датский',
-                'Русский': 'Русский'
+                'pt': 'Португальский (Бразилия)',
+                'en': 'Английский (США)',
+                'en-uk': 'Английский (Великобритания)',
+                'es': 'Испанский',
+                'de': 'Немецкий',
+                'fr': 'Французский',
+                'da': 'Датский',
+                'ru': 'Русский'
             }
         };
 
         document.querySelector('h1').textContent = translations[lang]['Idioma'];
         document.querySelector('img[alt="Voltar"]').setAttribute('alt', translations[lang]['Voltar']);
 
-        document.querySelectorAll('.lang-item span').forEach((span, index) => {
-            const langKeys = Object.keys(translations[lang]);
-            span.textContent = translations[lang][langKeys[index]];
+        document.querySelectorAll('.lang-item').forEach((langItem) => {
+            const span = langItem.querySelector('span');
+            const value = langItem.querySelector('input').value;
+            span.textContent = translations[lang][value];
         });
     }
 });
